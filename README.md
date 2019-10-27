@@ -1,2 +1,2 @@
 # Games
-Repository containing and other programs created for leisure
+Repository containing small games and some other programs created for leisure.
