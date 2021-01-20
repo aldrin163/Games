@@ -1,0 +1,87 @@
+:root {
+  --diameter: 300px;
+  --center: 150px;
+}
+
+.clock-container {
+  border: solid 1px black;
+}
+
+.clock {
+  height: var(--diameter);
+  width: var(--diameter);
+  background-color: aqua;
+  border-radius: 50%;
+  border: 3px solid darkblue;
+  position: relative;
+}
+
+.numbers {
+  width: 100%;
+  height: 100%;
+}
+
+.number {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  /* background-color: pink; */
+}
+.dash {
+  /* background-color: green; */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+}
+
+.d {
+  width: 1px;
+  height: 9px;
+  background-color: black;
+  position: absolute;
+  left: var(--center);
+}
+
+.d.small {
+  height: 16.5px;
+  width: 2.5px;
+}
+
+.s-needle {
+  border: 1px solid red;
+  width: 120px;
+  position: absolute;
+  top: var(--center);
+  left: var(--center);
+  transform-origin: 0% 0%;
+}
+
+.m-needle {
+  border: 1.7px solid black;
+  width: 95px;
+  position: absolute;
+  top: var(--center);
+  left: var(--center);
+  transform-origin: 0% 0%;
+}
+
+.h-needle {
+  border: 2.5px solid black;
+  width: 55px;
+  position: absolute;
+  top: var(--center);
+  left: var(--center);
+  transform-origin: 0% 0%;
+}
+.center-circ {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  left: var(--center);
+  top: var(--center);
+  transform: translate(-50%, -50%);
+}
