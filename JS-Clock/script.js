@@ -2,7 +2,7 @@ const sNeedle = document.querySelector(".s-needle");
 const mNeedle = document.querySelector(".m-needle");
 const hNeedle = document.querySelector(".h-needle");
 
-h3 = document.querySelector("h3");
+const h3 = document.querySelector("h3");
 
 const createNumbers = () => {
   const numbers = document.querySelector(".numbers");
